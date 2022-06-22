@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May 17 17:45:42 2022
+# Process ID: 14512
+# Current directory: C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.sim/sim_1/synth/func/xsim/xsim.dir/tb_processor_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.sim/sim_1/synth/func/xsim/xsim.dir/tb_processor_func_synth/webtalk/xsim_webtalk.tcl -notrace

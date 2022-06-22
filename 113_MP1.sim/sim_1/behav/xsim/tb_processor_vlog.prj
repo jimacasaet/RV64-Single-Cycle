@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../113_MP1.srcs/sim_1/new" \
+"../../../../113_MP1.srcs/sources_1/new/control.v" \
+"../../../../113_MP1.srcs/sim_1/imports/memory_model/mem_model.v" \
+"../../../../113_MP1.srcs/sim_1/imports/memory_model/mem_prog.v" \
+"../../../../113_MP1.srcs/sources_1/new/mod.v" \
+"../../../../113_MP1.srcs/sources_1/new/mp1.v" \
+"../../../../113_MP1.srcs/sim_1/new/tb_processor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

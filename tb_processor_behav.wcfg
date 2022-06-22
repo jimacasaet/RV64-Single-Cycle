@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_processor_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_processor" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1498805507fs"></ZoomStartTime>
+      <ZoomEndTime time="1861804307fs"></ZoomEndTime>
+      <Cursor1Time time="1722052000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="205"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_processor/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_processor/nrst" type="logic">
+      <obj_property name="ElementShortName">nrst</obj_property>
+      <obj_property name="ObjectShortName">nrst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group15" type="group">
+      <obj_property name="label">Testbench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_processor/pc" type="array">
+         <obj_property name="ElementShortName">pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/inst" type="array">
+         <obj_property name="ElementShortName">inst[31:0]</obj_property>
+         <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/rdata" type="array">
+         <obj_property name="ElementShortName">rdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/addr" type="array">
+         <obj_property name="ElementShortName">addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/wmask" type="array">
+         <obj_property name="ElementShortName">wmask[7:0]</obj_property>
+         <obj_property name="ObjectShortName">wmask[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group19" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_ALU/inA" type="array">
+         <obj_property name="ElementShortName">inA[63:0]</obj_property>
+         <obj_property name="ObjectShortName">inA[63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_ALU/inB" type="array">
+         <obj_property name="ElementShortName">inB[63:0]</obj_property>
+         <obj_property name="ObjectShortName">inB[63:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_ALU/zero" type="logic">
+         <obj_property name="ElementShortName">zero</obj_property>
+         <obj_property name="ObjectShortName">zero</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_ALU/result" type="array">
+         <obj_property name="ElementShortName">result[63:0]</obj_property>
+         <obj_property name="ObjectShortName">result[63:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/ALURes" type="array">
+         <obj_property name="ElementShortName">ALURes[63:0]</obj_property>
+         <obj_property name="ObjectShortName">ALURes[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group16" type="group">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/mux_to_PC" type="array">
+         <obj_property name="ElementShortName">mux_to_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mux_to_PC[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/pc_out" type="array">
+         <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_PC/next" type="array">
+         <obj_property name="ElementShortName">next[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_PC/current" type="array">
+         <obj_property name="ElementShortName">current[31:0]</obj_property>
+         <obj_property name="ObjectShortName">current[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_wr_en" type="logic">
+         <obj_property name="ElementShortName">reg_wr_en</obj_property>
+         <obj_property name="ObjectShortName">reg_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_wr_data" type="array">
+         <obj_property name="ElementShortName">reg_wr_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_wr_data[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_wr_dest" type="array">
+         <obj_property name="ElementShortName">reg_wr_dest[4:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_wr_dest[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_read_addr1" type="array">
+         <obj_property name="ElementShortName">reg_read_addr1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_read_addr1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_read_addr2" type="array">
+         <obj_property name="ElementShortName">reg_read_addr2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_read_addr2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_read_data1" type="array">
+         <obj_property name="ElementShortName">reg_read_data1[63:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_read_data1[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/reg_read_data2" type="array">
+         <obj_property name="ElementShortName">reg_read_data2[63:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_read_data2[63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_processor/I_PROCESSOR/I_IMMGEN/imm" type="array">
+      <obj_property name="ElementShortName">imm[63:0]</obj_property>
+      <obj_property name="ObjectShortName">imm[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_processor/I_PROCESSOR/I_RegisterFile/register_file" type="array">
+      <obj_property name="ElementShortName">register_file[0:31][63:0]</obj_property>
+      <obj_property name="ObjectShortName">register_file[0:31][63:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

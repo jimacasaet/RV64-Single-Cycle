@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.sim/sim_1/synth/timing/xsim/tb_processor_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-311] analyzing module ADD_0
+INFO: [VRFC 10-311] analyzing module ADD_1
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.srcs/sim_1/imports/memory_model/mem_model.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_model
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.srcs/sim_1/imports/memory_model/mem_prog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_prog
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.srcs/sim_1/new/tb_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_processor

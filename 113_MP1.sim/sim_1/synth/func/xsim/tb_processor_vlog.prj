@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../113_MP1.srcs/sim_1/new" \
+"tb_processor_func_synth.v" \
+"../../../../../113_MP1.srcs/sim_1/imports/memory_model/mem_model.v" \
+"../../../../../113_MP1.srcs/sim_1/imports/memory_model/mem_prog.v" \
+"../../../../../113_MP1.srcs/sim_1/new/tb_processor.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed May 18 01:22:36 2022
+# Process ID: 22064
+# Current directory: C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.runs/synth_1
+# Command line: vivado.exe -log processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source processor.tcl
+# Log file: C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.runs/synth_1/processor.vds
+# Journal file: C:/Users/macas/Documents/Xilinx/113_MP1/113_MP1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source processor.tcl -notrace
